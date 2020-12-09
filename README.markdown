@@ -7,7 +7,7 @@ I updated the version of Apache Kafka and Scala.
 
 ## Running
 ```bash
-sbt new idarlington/kafka-streams.g8
+sbt new dobachi/kafka-streams.g8
 ```
 
 Template license
