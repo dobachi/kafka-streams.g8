@@ -2,7 +2,7 @@ lazy val root = (project in file(".")).settings(
   inThisBuild(
     List(
       organization := "$organization$",
-      scalaVersion := "2.11.12"
+      scalaVersion := "2.13.3"
     )
   ),
   name := "$name$",
@@ -19,7 +19,7 @@ lazy val root = (project in file(".")).settings(
 lazy val library = new {
 
   val version = new {
-    val kafkaVersion   = "2.1.0"
+    val kafkaVersion   = "2.6.0"
     val scalaTest      = "3.0.5"
     val log4jCore      = "2.11.1"
     val typesafeConfig = "1.3.2"
